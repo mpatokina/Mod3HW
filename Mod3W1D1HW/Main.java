@@ -21,7 +21,7 @@ public class Main {
             }
             return newWord.toString();
         }
-        
+
             static void primeNum(){
                 int primeCheckNumber;
                 int n = 1;
@@ -52,7 +52,5 @@ public class Main {
                 System.out.println("false - keep sleeping");
             }
     }
-
-
 }
 
