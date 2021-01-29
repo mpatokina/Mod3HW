@@ -21,6 +21,7 @@ public class Main {
             }
             return newWord.toString();
         }
+        
             static void primeNum(){
                 int primeCheckNumber;
                 int n = 1;
@@ -41,30 +42,15 @@ public class Main {
                     }
                     n++;
                 }
-
             }
 
-            //static void getUp(boolean squawking, int currentHour){
-              // if(currentHour < 6 || currentHour >22 ) {
-                //   squawking = true;
-              // }else {
-              //     squawking = false;
-              // }
-              //  System.out.println(squawking);
-           // }
-
     static void getUp (boolean squawking, int currentHour){
-
             if ( currentHour < 6 || currentHour > 22 ){
                 squawking = true;
                 System.out.println("true - get up");
-
             } else {
-
                 System.out.println("false - keep sleeping");
-
             }
-
     }
 
 
