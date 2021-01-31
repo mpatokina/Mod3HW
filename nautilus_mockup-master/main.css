@@ -1,0 +1,64 @@
+.matches {
+    display: flex;
+    justify-content:center;
+}
+.clover {
+    display: flex;
+    justify-content:center;
+}
+.ai {
+    display: flex;
+    justify-content:center;
+}
+.container1 {
+    display: flex;
+    justify-content: center;
+    }
+
+.container2 {
+    display: flex;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr, 1fr, 1fr;
+    grid-template-rows: 1fr, 1fr, 1fr, 1fr;
+
+}
+
+.bio {grid-row: 1/2;
+    grid-column: 1/2;}
+.wise {grid-row: 1/2;
+    grid-column: 2/3;}
+.abstractions {grid-row: 1/2;
+    grid-column: 3/4;}
+.earth {grid-row: 2/3;
+    grid-column: 1/2;}
+.tlas {grid-row: 2/3;
+    grid-column: 2/3;}
+.cosmos {grid-row: 2/3;
+    grid-column: 3/4;}
+.poetry {grid-row: 3/4;
+    grid-column: 1/2;}
+.aging {grid-row: 3/4;
+    grid-column: 2/3;}
+.alliance {grid-row: 3/4;
+    grid-column: 3/4;}
+.maxplanck {grid-row: 4/5;
+    grid-column: 1/2;}
+
+.container3 {
+    display: flex;
+    justify-content: center;
+    
+}
+.container4 {
+    display: flex;
+    justify-content: center;
+    
+}
+.container5 {
+    display: flex;
+    justify-content: center;
+    
+}
+.hp {display: flex;
+    justify-content:center;}
